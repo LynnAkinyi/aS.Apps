@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#838388" >
+
+    <TextView android:id="@+id/lblUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#2196F3"
+        android:text="User Name"
+        android:textSize="23dp"
+        android:textColor="#ff000000"
+        android:textStyle="bold" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/txtUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lblUserName"
+        android:padding="20dp"
+        android:background="#C3CC6F">
+    </EditText>
+
+    <Button
+        android:id="@+id/btnGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtUserName"
+        android:layout_alignRight="@+id/txtUserName"
+        android:layout_marginTop="46dp"
+        android:background="#886FCC"
+        android:text="Go"
+        android:textStyle="bold"></Button>
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtUserName"
+        android:layout_marginTop="51dp"
+        android:layout_marginRight="68dp"
+        android:layout_toLeftOf="@+id/btnGo"
+        android:background="#A16FCC"
+        android:text="Cancel"
+        android:textStyle="bold"></Button>
+
+</RelativeLayout>

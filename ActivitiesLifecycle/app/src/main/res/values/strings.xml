@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ActivitiesLifecycle</string>
+    <string name="activity_methods">activity methods</string>
+    <string name="exit_button">exit_button</string>
+</resources>

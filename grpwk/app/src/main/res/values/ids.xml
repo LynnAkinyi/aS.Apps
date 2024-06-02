@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="weight" type="id">weight</item>
+    <item name="result" type="id">result</item>
+    <item name="bmiCat" type="id">bmi</item>
+    <item name="btn" type="id">btn</item>
+</resources>

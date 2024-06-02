@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#E9ECEB">
+
+
+    <!--Edit text to enter course name-->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="217dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/courses"
+        android:textColor="#05850A"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="192dp"
+        android:layout_height="47dp"
+        android:text="@string/course_name"
+        android:textColor="#066E64"
+        android:textSize="24sp"/>
+
+    <EditText
+
+        android:id="@+id/idEdtCourseName"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+
+        android:hint="@string/enter_course_name"
+        android:inputType="text"
+        android:autofillHints="" />
+
+
+    <!--edit text to enter course duration-->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="189dp"
+        android:layout_height="39dp"
+        android:text="@string/course_duration"
+        android:textSize="24sp"
+        android:textColor="#066E64"/>
+
+    <EditText
+
+        android:id="@+id/idEdtCourseDuration"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+
+        android:hint="@string/enter_course_duration"
+        android:inputType="text"
+        android:autofillHints="" />
+
+
+    <!--edit text to display course tracks-->
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="201dp"
+        android:layout_height="44dp"
+        android:text="@string/current_year"
+        android:textSize="24sp"
+        android:textColor="#066E64"/>
+
+    <EditText
+
+        android:id="@+id/idEdtCurrentYear"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+
+        android:hint="@string/enter_current_year"
+        android:inputType="text"
+        android:autofillHints="" />
+
+
+    <!--edit text for course description-->
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="216dp"
+        android:layout_height="45dp"
+        android:text="@string/course_description"
+        android:textSize="24sp"
+        android:textColor="#066E64"/>
+
+    <EditText
+
+        android:id="@+id/idEdtCourseDescription"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+
+        android:hint="@string/enter_course_description"
+        android:inputType="text"
+        android:autofillHints="" />
+
+
+    <!--button for adding new course-->
+
+    <Button
+
+        android:id="@+id/idBtnAddCourse"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+        android:text="@string/add_course"
+        android:textSize="24sp"
+        android:textAllCaps="false"
+
+      />
+
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="Grpwk">grpwk</string>
+    <string name="weight">weight</string>
+    <string name="btn">btn</string>
+    <string name="heightText">height</string>
+    <string name="result">result</string>
+    <string name="bmiCat">bmiCat</string>
+</resources>
